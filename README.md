@@ -7,10 +7,12 @@ A beginner-friendly neural network built with Keras and TensorFlow that learns t
 ## 📌 What Does It Do?
 
 The model takes two numbers as input (for example, `X1 = 3` and `X2 = 5`) and learns to predict their sum (`y = 8`) by training on 200 randomly generated examples. While the task itself is simple, the project demonstrates the full end-to-end pipeline you would use for any regression problem.
+<img width="1919" height="964" alt="image" src="https://github.com/user-attachments/assets/f36b92ff-ae0f-475b-bdd3-5590f649a6d0" />
 
 ---
 
 ## 🏗️ Model Architecture
+<img width="1919" height="973" alt="image" src="https://github.com/user-attachments/assets/330768ae-ded9-4379-ba6c-715809200dc5" />
 
 The network uses a simple two-layer Sequential architecture:
 
@@ -41,6 +43,7 @@ The first is a **training curve** showing how the loss drops over epochs for bot
 The second is a **network architecture diagram** drawn with `matplotlib`, showing the neurons as colored circles and the connections between them as lines, similar to the diagrams you see in textbooks.
 
 The third is a **predictions vs. actual values** scatter plot. If the model learned well, the points should lie close to the diagonal red line, which represents perfect predictions.
+<img width="1919" height="934" alt="image" src="https://github.com/user-attachments/assets/e2ea8b4e-e244-4e2d-979d-a70f2b8971ca" />
 
 ---
 
